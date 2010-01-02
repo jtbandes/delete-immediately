@@ -24,6 +24,8 @@
 		256AC3F00F4B6AF500CF3369 /* Delete Immediately_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Delete Immediately_Prefix.pch"; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		58628E6110EF8CCF0057CFB7 /* Polish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Polish; path = Polish.lproj/ServicesMenu.strings; sourceTree = "<group>"; };
+		58628E6410EF8CDA0057CFB7 /* Polish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Polish; path = Polish.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Delete Immediately.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delete Immediately.service"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,6 +145,13 @@
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Delete Immediately" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Polish,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* TestService */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -181,6 +190,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1646D7B9104BC89A00932CE1 /* English */,
+				58628E6110EF8CCF0057CFB7 /* Polish */,
 			);
 			name = ServicesMenu.strings;
 			sourceTree = "<group>";
@@ -189,6 +199,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1646D7BE104BC98A00932CE1 /* English */,
+				58628E6410EF8CDA0057CFB7 /* Polish */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
