@@ -30,7 +30,9 @@
 		NSString *infoText = NSLocalizedString(@"INFO_SINGLE", @"Deletion info (singular)");
 		if  ([items count] > 1) {
 			infoText = NSLocalizedString(@"INFO_MULTIPLE", @"Deletion info (plural)");
-			messageText = NSLocalizedString(@"CONFIRM_DELETE_MULTIPLE", @"Confirm multiple file deletion");
+			messageText = [NSString stringWithFormat:
+                     NSLocalizedString(@"CONFIRM_DELETE_MULTIPLE", @"Confirm multiple file deletion"),
+                     [NSNumber numberWithInt: [items count]]];
 		} else {
 			messageText = [NSString stringWithFormat:
 						   NSLocalizedString(@"CONFIRM_DELETE_SINGLE", @"Confirm single file deletion (with name)"),
