@@ -5,6 +5,12 @@ By Jacob Bandes-Storch (a.k.a. jtbandes), 2009.
 ## Info
 This service takes care of the common request for the ability to delete files in Finder without them going to the Trash. A common solution was to open Terminal and use `rm(1)`, which was tedious. This Service appears in the Services menu and the Finder context menu, allowing quick and easy deletion of files and folders without the Trash. It even works on files that are already in the Trash!
 
+![Context menu](http://new.tinygrab.com/907ad368f36cdd7d495c0401542a3cd2.png)
+
+![Services menu](http://new.tinygrab.com/f933f51777d6da62e91f0f7eb85013e8.png)
+
+See [the wiki](https://github.com/jtbandes/delete-immediately/wiki) for more info.
+
 ## Notes
 - By default, the service pops up a warning/confirmation dialog before you delete a file. The code which adds a "Don't show this warning again" checkbox has been intentionally commented out to prevent users from making bad mistakes. However, the service still respects the (now hidden) preference to bypass this confirmation. If you really want to do this, and you promise not to delete any important files by accident, you have two options:
   - Uncomment the relevant code and build your own version of the service
