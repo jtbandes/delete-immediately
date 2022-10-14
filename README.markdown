@@ -1,3 +1,5 @@
+> :warning: This project is no longer maintained. Recent version of macOS include a native Delete Immediately feature: https://osxdaily.com/2015/11/23/delete-files-immediately-bypass-trash-mac-os-x/
+
 # Delete Immediately
 A standalone Mac OS X 10.6 Snow Leopard Service to delete files and folders immediately, bypassing the Trash.
 By Jacob Bandes-Storch (a.k.a. jtbandes), 2009.
